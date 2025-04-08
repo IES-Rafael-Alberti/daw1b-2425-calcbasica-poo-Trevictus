@@ -1,9 +1,9 @@
-package src
+package model
 
 import java.util.InputMismatchException
 import java.util.Scanner
 
-class Calculadora(): Icalculadora{
+class otoro(): otor{
     override fun pedirNumero(): Double {
         val scanner = Scanner(System.`in`)
         while(true){

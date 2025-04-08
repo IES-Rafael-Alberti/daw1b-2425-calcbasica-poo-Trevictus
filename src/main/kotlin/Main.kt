@@ -1,8 +1,7 @@
-import src.Calculadora
-import java.util.Scanner
+import model.otoro
 
 fun main() {
-val calculadora = Calculadora()
+val calculadora = otoro()
 
     calculadora.pedirNumero()
 }

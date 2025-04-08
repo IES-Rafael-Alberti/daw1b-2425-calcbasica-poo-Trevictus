@@ -1,6 +1,6 @@
-package src
+package model
 
-interface Icalculadora {
+interface otor {
     fun pedirNumero(): Double
 
     fun pedirOperador(): Double
