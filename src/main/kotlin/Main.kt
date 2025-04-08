@@ -1,7 +1,7 @@
-import model.otoro
+import model.Calculadora
+import service.ServCalculadora
+import ui.Consola
 
 fun main() {
-val calculadora = otoro()
-
-    calculadora.pedirNumero()
+    app.Menu(ServCalculadora(Calculadora()), Consola()).iniciar()
 }

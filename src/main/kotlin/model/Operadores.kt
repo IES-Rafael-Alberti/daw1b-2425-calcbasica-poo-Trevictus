@@ -1,6 +1,6 @@
 package model
 
-enum class Operadores(val operador: String) {
+enum class Operadores(val simbolo: String) {
     SUMA("+"),
     RESTA("-"),
     MULTIPLICACION("*"),

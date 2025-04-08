@@ -1,6 +1,8 @@
 package service
 
-class ServCalculadora(val calculadora: IServCalculadora) {
+import model.Calculadora
+
+class ServCalculadora(val calculadora: Calculadora) {
     fun sumar(num1: Double, num2: Double): Double {
         return calculadora.sumar(num1, num2)
     }
